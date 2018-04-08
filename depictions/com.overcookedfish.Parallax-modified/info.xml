@@ -1,38 +1,29 @@
+```xml
+```
 <package>
 	<id>com.overcookedfish.parallax-modified</id>
 	<name>Parallax-modified</name>
-	<version>0.3</version>
+	<version>0.4</version>
 	<compatibility>
 		<firmware>
-			<miniOS>7.0</miniOS>
+		    <miniOS>7.0</miniOS>
+			<maxiOS>13.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
-        <package>com.matchstic.xenhtml</package>
-	</dependencies>
+        <dependency>com.matchstic.xenhtml
+    </dependencies>
 	<descriptionlist>
-		<description>Parallax wallpaper theme for XenHTML.</description>
-		<description>Based on work by CSS3_.</description>
-		<description>
-		</description>
+		<description>Requires ios 7 and XenHTML</description>
 	</descriptionlist>
-	<screenshots>
-		<screenshot>
-			<description>Screenshot of tweak</description>
-			<image>image.PNG</image>
-		</screenshot>		
-	</screenshots>
+	<screenshots></screenshots>
 	<changelog>
 		<change>Initial release</change>
-		<change>- working deb file</change>
-		<change>- now with features</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak (a bit of a shithole lately)</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
-		</link>
-	</links>
+	<links></links>
 </package>
+```
