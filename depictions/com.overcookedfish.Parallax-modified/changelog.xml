@@ -1,12 +1,6 @@
 <changelog>
 	<changes>
-		<version>0.4</version>
-		<change>fixes a few bugs</change>
-		<change>increases rotation sensetivity</change>
-		<change>deb file fixes</change>
-	</changes>
-	<changes>
-		<version>0.3</version>
-		<change>Initial Release</change>
+		<version>1.0.0-1</version>
+		<change>Initial release</change>
 	</changes>
 </changelog>

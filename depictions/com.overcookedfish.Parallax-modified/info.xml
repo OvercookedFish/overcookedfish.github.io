@@ -1,24 +1,19 @@
-```xml
-```
 <package>
 	<id>com.overcookedfish.parallax-modified</id>
-	<name>Parallax-modified</name>
-	<version>0.4</version>
+	<name>Old Package</name>
+	<version>1.0.0-1</version>
 	<compatibility>
 		<firmware>
-		    <miniOS>7.0</miniOS>
-			<maxiOS>13.0</maxiOS>
+			<maxiOS>7.0</maxiOS>
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
 			-->
 		</firmware>
 	</compatibility>
-	<dependencies>
-        <dependency>com.matchstic.xenhtml
-    </dependencies>
+	<dependencies></dependencies>
 	<descriptionlist>
-		<description>Requires ios 7 and XenHTML</description>
+		<description>This is an old package. Requires iOS 7 and below..</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
@@ -26,4 +21,3 @@
 	</changelog>
 	<links></links>
 </package>
-```
