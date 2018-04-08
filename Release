@@ -1,0 +1,9 @@
+Origin: OvercookedFish's Repo
+Label: OvercookedFish's Repo
+Suite: stable
+Version: 1.0
+Codename: Overcooked
+Architectures: iphoneos-arm
+Components: main
+Description: OvercookedFish's Repo for tweaks and themes
+MD5Sum:
