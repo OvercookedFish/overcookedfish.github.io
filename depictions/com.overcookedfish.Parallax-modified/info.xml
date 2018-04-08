@@ -1,7 +1,7 @@
 <package>
-	<id>com.supermamon.fullpackage</id>
-	<name>Full Package</name>
-	<version>2.0.0-1</version>
+	<id>com.overcookedfish.parallax-modified</id>
+	<name>Parallax-modified</name>
+	<version>0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -9,34 +9,28 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+        <package>com.matchstic.xenhtml</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
-		<description><![CDATA[
-		You can also have<br/> 
-		a multi-line item.
-		]]>
+		<description>Parallax wallpaper theme for XenHTML.</description>
+		<description>Based on work by CSS3_.</description>
+		<description>
 		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>		
-		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
+			<description>Screenshot of tweak</description>
+			<image>image.PNG</image>
 		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>Initial release</change>
+		<change>- working deb file</change>
+		<change>- now with features</change>
 	</changelog>
 	<links>
 		<link>
-			<name>/r/jailbreak</name>
+			<name>/r/jailbreak (a bit of a shithole lately)</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>

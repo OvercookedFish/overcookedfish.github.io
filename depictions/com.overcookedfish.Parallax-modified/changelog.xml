@@ -1,12 +1,12 @@
 <changelog>
 	<changes>
-		<version>1.0.0-2</version>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<version>0.4</version>
+		<change>fixes a few bugs</change>
+		<change>increases rotation sensetivity</change>
+		<change>deb file fixes</change>
 	</changes>
 	<changes>
-		<version>1.0.0-1</version>
+		<version>0.3</version>
 		<change>Initial Release</change>
 	</changes>
 </changelog>
