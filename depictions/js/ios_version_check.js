@@ -1,16 +1,26 @@
-// Decimation's fork to remove emojis
+/*
+I saw some parts of this code on the internet. I forgot where. If it's yours
+let me know and I'll credit you.
 
-const VERSION_CHECK_SUPPORTED = "Your iOS version is supported!";
-const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s";
-const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s";
-const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
+*/
 
-(function(document) {
+// changed const to var for IE9/10 compatibity.
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
+var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
+var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
+var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
+
+function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
+
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
+		return [ 
+				parseInt(bits[0], 10), 
+				parseInt(bits[1] ? bits[1] : 0, 10), 
+				parseInt(bits[2] ? bits[2] : 0, 10)
+			   ];
 	}
 
 	function compareVersions(one, two) {
@@ -36,18 +46,20 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 		return 0;
 	}
 
-	var prerequisite = document.querySelector(".prerequisite"),
-		version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
-
-	if (!prerequisite || !version) {
-		return;
+	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
+	if (!version) {
+		return 0;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+	var osVersion = [ 
+						parseInt(version[2], 10), 
+						parseInt(version[3], 10), 
+						parseInt(version[4] ? version[5] : 0, 10)
+					],
 
 		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
-		minString = prerequisite.dataset.minIos,
-		maxString = prerequisite.dataset.maxIos,
+		minString = minIOS,
+		maxString = maxIOS,
 
 		minVersion = parseVersionString(minString),
 		maxVersion = maxString ? parseVersionString(maxString) : null,
@@ -59,7 +71,7 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
-		if ("unsupported" in prerequisite.dataset) {
+		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
 		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
@@ -67,11 +79,7 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 
 		isBad = true;
 	}
+	callBack(message,isBad);
 
-//	prerequisite.querySelector("p").textContent = message;
-    prerequisite.querySelector("p").innerHTML = message;
-
-	if (isBad) {
-		prerequisite.classList.add("info");
-	}
-})(document);
+	return (isBad?-1:1);
+}

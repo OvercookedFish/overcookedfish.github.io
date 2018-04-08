@@ -1,9 +1,8 @@
-Origin: OvercookedFish Repo
-Label: OvercookedFish Repo
+Origin: Reposi3
+Label: Reposi3
 Suite: stable
-Version: 0.1
-Codename: OvercookedFish
+Version: 1.0
+Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: OvercookedFish Repo
-MD5Sum:
+Description: Reposi3 - a cydia repo template
