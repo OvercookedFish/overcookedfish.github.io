@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: OvercookedFish <overcookedfishdevelopment@gmail.com>
 Depends: com.matchstic.xenhtml
 Filename: ./debs/com.overcookedfish.parallax.deb
-Size: 356352
+Size: 354236
 MD5sum: 090703FD91D3F9445B4221EAC9F9C550
 SHA1: 089c4d56a2c074bf1dd6e4c2faf4aebdf3cd5efb
 SHA256: 48d24a2ab75630ddb94d55f8a65385e30caa829efd13b9dadd3a7167e7c589e4
