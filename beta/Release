@@ -1,9 +1,9 @@
-Origin: OvercookedFish's Repo
-Label: OvercookedFish's Repo
+Origin: OvercookedFish's BETA Repo
+Label: OvercookedFish's BETA Repo
 Suite: stable
-Version: 1.0
+Version: 1.1
 Codename: Overcooked
 Architectures: iphoneos-arm
 Components: main
-Description: OvercookedFish's Repo for tweaks and themes
+Description: OvercookedFish's BETA Repo for tweaks and themes in the testing phase.
 MD5Sum:
