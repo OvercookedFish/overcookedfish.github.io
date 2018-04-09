@@ -8,6 +8,7 @@ Size: 354236
 MD5sum: 090703FD91D3F9445B4221EAC9F9C550
 SHA1: 089c4d56a2c074bf1dd6e4c2faf4aebdf3cd5efb
 SHA256: 48d24a2ab75630ddb94d55f8a65385e30caa829efd13b9dadd3a7167e7c589e4
+SHA512: bfb5faf0d705a051c625fcf9a4b47669ac4f03885da795daa776cf1e7e025b7ed519833d40d16f24787e2df8639758787e42e16dff10e87723bcbaf25cd5e109
 Section: Widgets
 Description: Parallax lock widget effect. Requires iOS 7.0 or higher and XenHTML from Matchstic. Thanks to CSS3_ for the original designs and Mathew Garberfield for javascript
 Author: OvercookedFish + CSS3_
