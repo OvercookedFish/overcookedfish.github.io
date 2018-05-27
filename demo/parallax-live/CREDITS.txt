@@ -1,0 +1,48 @@
+  _____                _ _                        _      _______      ________ 
+ |  __ \              | | |                      | |    |_   _\ \    / /  ____|
+ | |__) |_ _ _ __ __ _| | | __ ___  __           | |      | |  \ \  / /| |__   
+ |  ___/ _` | '__/ _` | | |/ _` \ \/ /           | |      | |   \ \/ / |  __|  
+ | |  | (_| | | | (_| | | | (_| |>  <            | |____ _| |_   \  /  | |____ 
+ |_|   \__,_|_|  \__,_|_|_|\__,_/_/\_\           |______|_____|   \/   |______|
+                                                                               
+                                                                               
+______________________________________________________
+Credits:
+- Upscale (overcookedfish)
+- New images (overcookedfish)
+- Origional engine (Matthew Wagerfield)
+- Movement engine (Matthew Wagerfield)
+- Movement in general (Matthew Wagerfield)
+- Hard stuff (Matthew Wagerfield)
+- New mobile engine (overcookedfish)
+- Mobile engine configuration (overcookedfish)
+- XenHTML port (overcookedfish)
+- Wallpaper (overcookedfish)
+________________________________________________________
+
+
+         ___
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+      '-.((*_.-'
+
+(literal easter egg lmao)
+
+Thank you to matthew wagerfield and CSS3_, could not have
+ done this without them.
+ 
+ 
+ EXTRA NOTE: The movement is almost a line for line copy of work 
+ done by Matthew Wagerfield. I cannot thank him enough for this.
+ All of the messy internals is about 80% him, I just did the looks,
+ themes, configuration and adaptation for iOS. Please check this
+ guy out: 
+ 
+ https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fmatthew.wagerfield.com%2Fparallax%2F&ref_src=twsrc%5Etfw&screen_name=wagerfield&tw_p=followbutton
+ 
+ Also follow me @fishovercooked and on github at github.com/overcookedfish
+ 
+ - OF
