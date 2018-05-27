@@ -3,12 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
+	<!-- Behavioral Meta Data -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- Core Meta Data -->
+	<meta name="author" content="Matthew Wagerfield">
+	<meta name="description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+	<meta name="keywords" content="parallax,javascript,jquery,zepto,plugin">
+	<!-- Open Graph Meta Data -->
+	<meta property="og:description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+	<meta property="og:image" content="http://wagerfield.github.io/parallax/assets/images/thumbnail.png">
+	<meta property="og:site_name" content="widget">
+	<meta property="og:title" content=""title>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://github.io/overcookedfish">
+	<!-- Twitter Card Meta Data -->
+	<!-- Humans -->
 	<link rel="author" href="humans.txt" />
+	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="parallax/assets/styles/css/styles.css"/>
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="shortcut icon" href="http://wagerfield.github.io/parallaxfavicon.png" type="image/png">
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="parallax/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="parallax/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="parallax/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="parallax/apple-touch-icon-57x57-precomposed.png">
 	<!-- Apple Startup Images -->
 	<link rel="apple-touch-startup-image" href="apple-touch-startup-image-320x460.png" media="(device-width: 320px)">
 	<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)">
@@ -41,7 +63,6 @@
 			<li class="layer" data-depth="0.10"><div class="light orange d phase-3"></div></li>
 			<li class="layer" data-depth="0.15">
 				<ul class="rope depth-10">
-					<li><img src="parallax/assets/images/rope.png" alt="Rope"></li>
 					<li class="hanger position-2">
 						<div class="board cloud-2 swing-1"></div>
 					</li>
@@ -56,7 +77,6 @@
 			<li class="layer" data-depth="0.20"><h1 class="title"> <em> </em></h1></li>
 			<li class="layer" data-depth="0.30">
 				<ul class="rope depth-30">
-					<li><img src="parallax/assets/images/rope.png" alt="Rope"></li>
 					<li class="hanger position-1">
 						<div class="board cloud-1 swing-3"></div>
 					</li>
@@ -71,7 +91,6 @@
 			<li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
 			<li class="layer" data-depth="0.60">
 				<ul class="rope depth-60">
-					<li><img src="parallax/assets/images/rope.png" alt="Rope"></li>
 					<li class="hanger position-3">
 						<div class="board birds swing-5"></div>
 					</li>
@@ -90,6 +109,20 @@
 		<section id="about" class="wrapper about hide accelerate">
 			<div class="cell accelerate">
 				<div class="cables center accelerate">
+					<div class="panel accelerate">
+						<header>
+						</header>
+						<p>WOW, that's deep man! <strong>parallax.js</strong> reacts to the orientation of your smart device, offsetting layers depending on their depth within a scene... Oh, you don't have a smart device? No worries, if no gyroscope or motion detection hardware is available, <strong>parallax.js</strong> uses the position of your cursor instead. Radical.</p>
+						<p>This project is a collaboration between<br><a href="index.html" target="_blank">Matthew Wagerfield</a> &amp; <a href="http://cargocollective.com/whydontwetry" target="_blank">Claudio Guglieri</a>.</p>
+						<div class="social">
+							<a href="https://twitter.com/wagerfield" class="twitter-follow-button" data-show-count="false">Follow <span class="handle">@wagerfield</span></a>
+							<a href="https://twitter.com/claudioguglieri" class="twitter-follow-button" data-show-count="false">Follow <span class="handle">@claudioguglieri</span></a>
+						</div>
+						<ul class="links">
+							<li><a class="download" href="https://github.com/wagerfield/parallax/archive/master.zip">Download</a></li>
+							<li><a class="github" target="_blank" href="https://github.com/wagerfield/parallax">GitHub</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -56,7 +56,7 @@
     invertY: true,
     limitX: 130,
     limitY: 35,
-    scalarX: 7.0,
+    scalarX: 10.0,
     scalarY: 10.0,
     frictionX: 0.1,
     frictionY: 0.1,
