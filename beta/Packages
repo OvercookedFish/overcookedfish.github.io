@@ -1,13 +1,13 @@
-Package: com.overcookedfish.parallax-fixed
-Version: 0.4
+Package: com.overcookedfish.parallax
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: OvercookedFish <overcookedfishdevelopment@gmail.com>
 Depends: com.matchstic.xenhtml
-Filename: ./debs/com.overcookedfish.parallax-fixed.deb
-Size: 431916
-MD5sum: 25b401a3d7bb38ef739c21b7a294be29
+Filename: ./debs/com.overcookedfish.parallax.deb
+Size: 
+MD5sum: 
 Section: Widgets
-Description: Parallax lock widget effect. Requires iOS 7.0 or higher and XenHTML from Matchstic. Thanks to CSS3_ for the original designs and Mathew Garberfield for javascript
-Author: OvercookedFish + CSS3_
+Description: Collection of Parallax homescreen widgets, one animated and four standard.
+Author: OvercookedFish
 Depiction:
-Name: parallax-fixed
+Name: parallax
