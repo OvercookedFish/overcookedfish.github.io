@@ -37,7 +37,6 @@ button {
   padding: 0 1.2em;
   position: absolute;
   text-align: right;
-  top: 260px;
   width: 80%; }
   button:hover {
     background: #00ffaa; }
@@ -49,7 +48,6 @@ input[type=checkbox] + label:before {
   height: 16px;
   margin-right: 8px;
   position: relative;
-  top: 1px;
   width: 16px; }
 
 input[type=checkbox]:checked + label:before {
@@ -61,7 +59,7 @@ input[type=checkbox]:checked + label:before {
   padding: 10px;
   position: absolute;
   right: 1250px;
-  top: 1px; }
+  top: -120px;}
 
 .container--offset {
   margin-left: 0; }

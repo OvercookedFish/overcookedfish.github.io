@@ -142,7 +142,7 @@ var MAGIC_NUMBER = 30,
   frictionX: 0.05,
   frictionY: 0.05,
   originX: 0.0005,
-  originY: 0.25,
+  originY: 0.20,
   pointerEvents: true,
   precision: 1
 };
